@@ -1,0 +1,12 @@
+package dev.cmartinez.mi_primer_springboot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication(scanBasePackages = "dev.cmartinez")
+public class MiPrimerSpringbootApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(MiPrimerSpringbootApplication.class, args);
+    }
+}
