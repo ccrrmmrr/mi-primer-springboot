@@ -151,7 +151,8 @@ Ventaja: De "cero a producción" en minutos, sin XML de configuración.
 
 ## Screenshot
 - [Versiones](https://github.com/ccrrmmrr/mi-primer-springboot/tree/main/screenshots/01_versiones.PNG)
-- [Mi primer proyecto: spring-boot](https://github.com/ccrrmmrr/mi-primer-springboot/tree/main/screenshots/02_spring.PNG)
+- [Spring-boot](https://github.com/ccrrmmrr/mi-primer-springboot/tree/main/screenshots/02_spring.PNG)
+- [Primer Proyecto](https://github.com/ccrrmmrr/mi-primer-springboot/tree/main/screenshots/03_primerproyecto.PNG)
 
 ## Autor
 Carlos Roberto Martinez Rivadeneira - Curso Spring Boot & Kafka
