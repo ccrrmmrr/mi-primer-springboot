@@ -150,8 +150,8 @@ Ventaja: De "cero a producción" en minutos, sin XML de configuración.
       3. @ComponentScan - Escanea el package actual y sub-packages en busca de componentes
 
 ## Screenshot
-- [Versiones](https://github.com/ccrrmmrr/devops_microk8s/tree/main/Screemshots/part05/verificar_ingres.PNG)
-- [Mi primer proyecto: spring-boot](https://github.com/ccrrmmrr/devops_microk8s/tree/main/Screemshots/part05/verificar_ingres.PNG)
+- [Versiones](https://github.com/ccrrmmrr/mi-primer-springboot/tree/main/screenshots/01_versiones.PNG)
+- [Mi primer proyecto: spring-boot](https://github.com/ccrrmmrr/mi-primer-springboot/tree/main/screenshots/02_spring.PNG)
 
 ## Autor
 Carlos Roberto Martinez Rivadeneira - Curso Spring Boot & Kafka
