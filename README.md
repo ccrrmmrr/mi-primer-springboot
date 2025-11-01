@@ -117,22 +117,22 @@ Incluye:
 ## Conceptos Aprendidos
 
 #### ¿Qué es Spring Boot?
-   Framework que simplifica radicalmente el desarrollo de aplicaciones Spring mediante:
-   - Auto-configuración: Analiza el classpath y configura automáticamente los beans necesarios
-   - Servidores embebidos: Incluye Tomcat, Jetty o Undertow dentro del JAR
-   - Convención sobre configuración: Configuraciones sensibles por defecto
-   - Starter dependencies: Dependencias preempaquetadas para casos de uso comunes
-   - Producción lista: Health checks, métricas, externalización de configuración
-Ventaja: De "cero a producción" en minutos, sin XML de configuración.
+     Framework que simplifica radicalmente el desarrollo de aplicaciones Spring mediante:
+     - Auto-configuración: Analiza el classpath y configura automáticamente los beans necesarios
+     - Servidores embebidos: Incluye Tomcat, Jetty o Undertow dentro del JAR
+     - Convención sobre configuración: Configuraciones sensibles por defecto
+     - Starter dependencies: Dependencias preempaquetadas para casos de uso comunes
+     - Producción lista: Health checks, métricas, externalización de configuración
+       Ventaja: De "cero a producción" en minutos, sin XML de configuración.
 
 #### ¿Qué es Maven?
-   Herramienta de construcción y gestión de dependencias que:
-   - Gestión de dependencias: Descarga automáticamente librerías de repositorios centrales
-   - Ciclo de vida de build: Compilación, testing, empaquetado en fases estandarizadas
-   - Configuración declarativa: Define QUÉ hacer, no CÓMO (a diferencia de Ant)
-   - Sistema de plugins: Extensible para cualquier tarea (deploy, análisis, etc.)
-   - Build reproducible: Mismo resultado en cualquier máquina
-     Ejemplo: mvn spring-boot:run compila, resuelve dependencias y ejecuta.
+     Herramienta de construcción y gestión de dependencias que:
+     - Gestión de dependencias: Descarga automáticamente librerías de repositorios centrales
+     - Ciclo de vida de build: Compilación, testing, empaquetado en fases estandarizadas
+     - Configuración declarativa: Define QUÉ hacer, no CÓMO (a diferencia de Ant)
+     - Sistema de plugins: Extensible para cualquier tarea (deploy, análisis, etc.)
+     - Build reproducible: Mismo resultado en cualquier máquina
+       Ejemplo: mvn spring-boot:run compila, resuelve dependencias y ejecuta.
 
 #### ¿Qué significa "Tomcat started on port 8080"?
      Indica que:
