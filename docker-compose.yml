@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   dev-environment:
-    image: maven:3.9-eclipse-temurin-17  # Imagen con Maven incluido
+    image: maven:3.9-eclipse-temurin-17
     container_name: springboot-dev
     working_dir: /app
     volumes:
@@ -10,9 +10,24 @@ services:
       - maven-repo:/root/.m2
     ports:
       - "8080:8080"
+    depends_on:
+      - postgres
     stdin_open: true
     tty: true
     command: tail -f /dev/null
 
+  postgres:
+    image: postgres:15
+    container_name: springboot-postgres
+    environment:
+      POSTGRES_DB: cursos_db
+      POSTGRES_USER: cmartinez
+      POSTGRES_PASSWORD: password123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
 volumes:
+  postgres-data:
   maven-repo:
